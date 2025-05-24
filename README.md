@@ -87,7 +87,7 @@ Our current performance on the Magnet AXIOM data is as follows:
 |                | # of Answers               | 6/11    | 6/11                     | 4/11      | 00/11      | 
 | 2023 Windows   | Retriever accuracy         | N/A     | 7/13                     | 4/13       | 00/13      | 
 |                | # of Answers               | 9/13    | 7/13                     | 5/13       | 00/13      | 
-| 2023 Win Server| Retriever accuracy         | N/A     | 6/7                      | 3/7       | 00/7      | 
+| 2023 Win Server| Retriever accuracy         | N/A     | 6/7                      | 4/7       | 00/7      | 
 |                | # of Answers               | 6/7     | 5/7                      | 4/7       | 00/7      | 
 | 2025 Windows   | Retriever accuracy         | N/A     | 11/16                    | 5/16      | 00/16      | 
 |                | # of Answers               | 14/16   | 10/16                    | 8/16      | 00/16      | 

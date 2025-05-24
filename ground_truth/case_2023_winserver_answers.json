@@ -4,7 +4,7 @@
         "question": "Maybe you can get the Team to help you Viewer this? (5 points) What non-default remote desktop tool was installed on the system? Version number not required.",
         "answer": "Chrome Remote Desktop",
         "related_artifacts": [
-            "Intalled Program.csv"
+            "Installed Program.csv"
         ],
         "note": ""
     },

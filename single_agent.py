@@ -302,10 +302,17 @@ if __name__ == "__main__":
     set_global_config(base_cfg)
     logger = None
 
+    # Ensure required directories exist
+    log_dir = Path(base_cfg.get_path("log_dir"))
+    output_dir = Path(base_cfg.get_path("output_dir"))
+    
+    # Create directories if they don't exist
+    log_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     # Setup logging
     session_id = uuid.uuid4().hex
-    log_dir = base_cfg.get_path("log_dir")
-    logger = get_logger(__name__, Path(log_dir), level=args.log_level, session_id=session_id, case_name=base_cfg.case_name)
+    logger = get_logger(__name__, log_dir, level=args.log_level, session_id=session_id, case_name=base_cfg.case_name)
     logger.info("ArtifactX is starting...")
     
     # Handle MCP tools listing if requested

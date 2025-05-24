@@ -1,0 +1,148 @@
+[
+    {
+        "no": 1,
+        "question": "whoami? What is the SID for the user “chick”?",
+        "answer": "S-1-5-21-493923485-410185161-2094537482-1001",
+        "related_artifacts": [
+            "Operating System > User Accounts - Windows"
+        ],
+        "note": "- Operating System 관련 csv 도출\n- csv 내 'chick' 검색"
+    },
+    {
+        "no": 2,
+        "question": "Goodbye! When was the last logoff time for the user “chick”?",
+        "answer": "2024-11-24 17:36:55",
+        "related_artifacts": [
+            "Windows Event log.csv"
+        ],
+        "note": "- Event log.csv 내 'chick'과 'logged off'이 매칭되는 열 도출\n- 그 중 가장 마지막 시간 도출"
+    },
+    {
+        "no": 3,
+        "question": "In the Zone What is the host URL that crow.jpg was downloaded from?",
+        "answer": "https://www.treehugger.com/thmb/EmZOvx28sGNqCtDqQQBMGv-aezM=/4288x2848/filters:fill(auto,1)/__opt__aboutcom__coeus__resources__content_migration__mnn__images__2019__10__american-crow-portrait-01-b3f0cfbdbf164de59831c9725bfdbf67.jpg.",
+        "related_artifacts": [
+            "Zone.Identifier"
+        ],
+        "note": "- crow.jpg 파일 위치 도출\n- 문제 내 힌트를 기반으로 Zone.Identifier 파일 도출\n- Zone.Identifier 파일 내 HostURL 도출"
+    },
+    {
+        "no": 4,
+        "question": "I rate it 4 out of 10 What was the username of the person who saw the clouds coming in at 6:30 while doing a geocache?",
+        "answer": "wandering4cache",
+        "related_artifacts": [
+            "Edge Chromium Downloads.csv",
+            "GC365HN.gpx"
+        ],
+        "note": "ㅇ 'geocaching' 키워드 기반 전체 결과 도출\nㅇ geocaching.com 에서 다운로드 받은 파일(.gpx ) 파일 내 id 확인"
+    },
+    {
+        "no": 5,
+        "question": "Sweet Find What popular game was installed on the computer?",
+        "answer": "Candy Crush Saga",
+        "related_artifacts": [
+            "Installed Programs.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 6,
+        "question": "Buried Treasure On what social media platform did Mary look at a Burlington news account?",
+        "answer": "X",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv"
+        ],
+        "note": "- \"Burlington\" 키워드 전체 검색"
+    },
+    {
+        "no": 7,
+        "question": "Follow the Thread Where did Mary look for help with her coding questions?",
+        "answer": "Reddit",
+        "related_artifacts": [
+            "Edge Chromium Web Visits.csv"
+        ],
+        "note": "- \"coding\" 키워드 기반 전체 검색"
+    },
+    {
+        "no": 8,
+        "question": "Venomous Variables What language was Mary's first program written in?",
+        "answer": "Python",
+        "related_artifacts": [
+            "AmCache Program Entry.csv",
+            "Edge Chromium Web Visits.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 9,
+        "question": "Account Registration What is the creation date for Mary’s user account?",
+        "answer": "2024-09-24 15:11:51",
+        "related_artifacts": [
+            "Windows Event log.csv"
+        ],
+        "note": "- Event log.csv 내 'mary'과 'created'이 매칭되는 열 도출\n- 그 중 가장 첫번째 시간 도출"
+    },
+    {
+        "no": 10,
+        "question": "It’s History Now What was the name of the geocache that was completed?",
+        "answer": "Something’s Fishy",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv"
+        ],
+        "note": "- csv 대상 \"geocache\" 검색\n- 도출된 URL 대상 Web Search\n- 사이트 내 적힌 제목 파싱"
+    },
+    {
+        "no": 11,
+        "question": "Where did it go? What file was an anti-forensics tool used on?",
+        "answer": "success.txt.txt",
+        "related_artifacts": [
+            "PowerShell History logs.csv"
+        ],
+        "note": "- 안티포렌식 지식 필요 (SDelete)\n- csv 대상 \"SDelete\" 검색"
+    },
+    {
+        "no": 12,
+        "question": "Used by only the PROs What email service is Mary using other than gmail?",
+        "answer": "Proton Mail",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv"
+        ],
+        "note": "- csv 대상 \"mail\" 검색"
+    },
+    {
+        "no": 13,
+        "question": "If you don’t choose, I’ll choose for you What is the default browser set as?",
+        "answer": "Edge",
+        "related_artifacts": [
+            "Operating System Informaion.csv"
+        ],
+        "note": "- csv 대상 'Default Browser' 검색"
+    },
+    {
+        "no": 14,
+        "question": "A Stamped Link What time was the tiktok that Mary watched posted (YYYY-MM-DD HH:MM:SS)?",
+        "answer": "2024-11-12 22:11:09",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv"
+        ],
+        "note": "- 전체 csv 대상 'TikTok' 검색\n- 도출된 URL 대상 Unfurl 검색"
+    },
+    {
+        "no": 15,
+        "question": "Unravel the Mystery. What was the suggestion count when Mary was going to play a popular word-based browser game?",
+        "answer": "12-6",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 16,
+        "question": "Login Credentials Required What is Mary’s username on geocaching.com?",
+        "answer": "geomaryr",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv"
+        ],
+        "note": "- csv 대상 'geocaching.com' 검색"
+    }
+]

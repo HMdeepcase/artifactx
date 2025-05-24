@@ -1,0 +1,66 @@
+[
+    {
+        "no": 1,
+        "question": "Maybe you can get the Team to help you Viewer this? (5 points) What non-default remote desktop tool was installed on the system? Version number not required.",
+        "answer": "Chrome Remote Desktop",
+        "related_artifacts": [
+            "Intalled Program.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 2,
+        "question": "Remember to turn back the clocks in November! (5 points) What is the system timezone?",
+        "answer": "Greenwich Standard Time",
+        "related_artifacts": [
+            "Timezone Information.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 3,
+        "question": "I think I'm going to have a (National) Expresso toDay! (10 points) What was the date and time on the system when the user account with a password hint was created? (YYYY-MM-DD HH:MM:SS)",
+        "answer": "2022-11-23 2:46",
+        "related_artifacts": [
+            "User Accounts - Windows.csv",
+            "Windows Event Logs.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 4,
+        "question": "WHAT? I CANT HEAR YOU OVER THE FANS! (10 points) What is the operating system edition?",
+        "answer": "Windows Server 2019 Datacenter (1809)",
+        "related_artifacts": [
+            "Operating System Information.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 6,
+        "question": "Which email did I use for this again? (25 points) Not including their work account or gmail, what other email address did the primary user of the system have?",
+        "answer": "sgarza1284@proton.me",
+        "related_artifacts": [
+            "Chrome Autofill.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 8,
+        "question": "I lost Control of my Services and broke all the Tcpipconnections. This is the last time I'm going to use random Parameters I don't understand! (50 points) What was the second domain in the search list provided by the DHCP server?",
+        "answer": "c.boxwood-scope-369502.internal",
+        "related_artifacts": [
+            "Network Interface(Registry).csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 9,
+        "question": "i'm tired of Googling about the Cloud - time to learn about PowerShell modules instead. (75 points) What is the GUID of the PowerShell module found on the system?",
+        "answer": "e74637e6-7a4e-422d-bb9c-ca50809d78bb",
+        "related_artifacts": [
+            "google cloud.psd1"
+        ],
+        "note": "Attachments 내 google cloud.psd1 파일 필요"
+    }
+]

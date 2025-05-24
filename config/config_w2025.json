@@ -1,0 +1,30 @@
+{
+    "case_name": "case_2025_windows",
+    "models": {
+      "forensic": {
+        "name": "gpt-4.1",
+        "provider": "openai",
+        "temperature": 0
+      },
+      "evaluator": {
+        "name": "gpt-4.1",
+        "provider": "openai",
+        "temperature": 0
+      }
+    },
+    "paths": {
+      "base_dir": "axiom_data",
+      "root_dir": "Export",
+      "attached_artifact_dir": "Export/Attachments",
+      "log_dir": "logs",
+      "nav_path": "Export/nav_data",
+      "ground_truth_dir": "ground_truth",
+      "output_dir": "output"
+    },
+    "embed_image_model_name": "google/siglip-base-patch16-512",
+    "embed_text_model_name": "BAAI/bge-m3",
+    "milvus_uri": "http://localhost:19530",
+    "milvus_db_name": "",
+    "milvus_token": null,
+    "recursion_limit": 40
+  }

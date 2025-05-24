@@ -1,0 +1,108 @@
+[
+    {
+        "no": 1,
+        "question": "Never Gonna Give You Up.How many times did Patrick get rick rolled?",
+        "answer": "9",
+        "related_artifacts": [
+            "Edge Chromium Web History.csv",
+            "Edge Chromium Web Visits.csv"
+        ],
+        "note": "youtube 검색"
+    },
+    {
+        "no": 2,
+        "question": "r/hobbies. What subreddit did Patrick frequent the most? Format: r/subredditName",
+        "answer": "r/stamps",
+        "related_artifacts": [
+            "Social Media URLs.csv",
+            "Potential Browser Activity.csv",
+            "Edge Chromium Web History.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 3,
+        "question": "Version aversion. What was the version number of ZeroTier that was installed on the system?",
+        "answer": "1.8.4",
+        "related_artifacts": [
+            "AmCache Program Entries.csv",
+            "Installed Programs.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 4,
+        "question": "Insnoer Preview. What is the Build Number of the Windows Install?",
+        "answer": "22543",
+        "related_artifacts": [
+            "Operating System Information.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 5,
+        "question": "Nil Laye. What was the ZeroTier Network name?",
+        "answer": "pensive_joybubbles",
+        "related_artifacts": [
+            "saved_network.json"
+        ],
+        "note": "saved_network.json 파일 필요"
+    },
+    {
+        "no": 6,
+        "question": "Crater of Diamonds. When did n30forever “Mine” diamonds? YYYY-MM-DD HH:MM UTC",
+        "answer": "2022-02-11 0:57",
+        "related_artifacts": [
+            "microsoft log gz"
+        ],
+        "note": "microsoft log gz 파일 필요"
+    },
+    {
+        "no": 7,
+        "question": "Punching Wood. How many wood blocks has n30forever mined?",
+        "answer": "60",
+        "related_artifacts": [
+            "minecraft log"
+        ],
+        "note": "log 내 grep 필요"
+    },
+    {
+        "no": 8,
+        "question": "Default Skin. What is the Sno of the account that was used to create the extra user?",
+        "answer": "S-1-5-18",
+        "related_artifacts": [
+            "Windows Event Logs - User Events.csv",
+            "Windows Event Logs.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 9,
+        "question": "Groundhog Day. Where did n30forever spawn on the most recent logon? Format: x,y,z",
+        "answer": "226.5624306726793, 71.5625, 200.30000001192093",
+        "related_artifacts": [
+            "minecraft log"
+        ],
+        "note": "log 내 grep 필요"
+    },
+    {
+        "no": 10,
+        "question": "Real 2020 Moment. Patrick reports seeing a couple of notifications saying malicious files were found and quarentined. What was the file name of the malicious file that was spawned with the process name starting with the letter S?",
+        "answer": "sihost.exe",
+        "related_artifacts": [
+            "Windows Defender Logs.csv",
+            "Windows Event Logs.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 13,
+        "question": "Time 2 Block 0.0.0.0/0. What is the full address that the backdoor was downloaded into the system from? xxx.xxx.xxx.xxx:xxx/directory/backdoor.extension",
+        "answer": "192.168.191.253:8000/powercat.ps1",
+        "related_artifacts": [
+            "Windows Defender Logs.csv",
+            "Windows Event Logs.csv"
+        ],
+        "note": ""
+    }
+]

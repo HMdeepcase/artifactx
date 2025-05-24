@@ -1,0 +1,121 @@
+[
+    {
+        "no": 1,
+        "question": "Gmail? Outlook? Yeah, right.. (5 points) What non-standard email service has the user used previously?",
+        "answer": "Proton Mail",
+        "related_artifacts": [
+            "Chrome Logins.csv",
+            "Google Chrome Web History.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 2,
+        "question": "Two different versions, twice the emulation power! Makes sense to me! The user installed and ran a mobile device emulation program on their system. Which 2 versions of this software did the user install? (Format: SoftwareName V1/V2)",
+        "answer": "BlueStacks 5/X",
+        "related_artifacts": [
+            "Installed Programs.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 3,
+        "question": "LITEning fast write speeds! (5 points) The user's system is equipped with a 256GB NVMe SSD. What is the make and model of this drive?",
+        "answer": "LITEON CA1-8D256-HP",
+        "related_artifacts": [
+            "Identifiers - Device.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 4,
+        "question": "Really...? Plaintext...? (10 points) The user frequently accesses a Chrome Remote Desktop virtual machine. What password is used to log into this VM?",
+        "answer": ",a]JEU0yG^+]2O]",
+        "related_artifacts": [
+            "Employee Logins.txt"
+        ],
+        "note": "Attachments 내 Employee Logins.txt 필요"
+    },
+    {
+        "no": 5,
+        "question": "We're not in Kansas anymore... (25 points) The user has established an RDP connection to one destination more than any other. What is the Geolocation of this destination? (Format: City, ST)",
+        "answer": "Columbus, OH",
+        "related_artifacts": [
+            "Remote Desktop Protocol.csv"
+        ],
+        "note": "Google Search 필요"
+    },
+    {
+        "no": 6,
+        "question": "Why was 6 afraid of 7? Because 7 can unarchive virtual drives! (10 points) Within the past 2 years, a popular unarchiving program gained the ability to unarchive VHDX virtual disk images. What version of the program was this upgrade implemented?",
+        "answer": "21.07",
+        "related_artifacts": [
+            "AmCache File Entries.csv"
+        ],
+        "note": "Google Search 필요"
+    },
+    {
+        "no": 7,
+        "question": "Make sure to keep some tabs on that SysAdmin from Southern California (25 points) The user visited the Mastodon page of one user more than any others on the platform. What is the full legal name of the user Michael visited?",
+        "answer": "Armin Briegel",
+        "related_artifacts": [
+            "Chrome Web Visits.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 8,
+        "question": "We have a History of attracting some sizeable donors with our projects (25 points) Michael used PowerShell to clone a particular GitHub utility. What is the account name of one of this repo's most prominent sponsors?",
+        "answer": "yujincheng08",
+        "related_artifacts": [
+            "PowerShell History.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 9,
+        "question": "Scratch that Itch.io (25 points) The user viewed a YouTube video by the creator BenBonk surrounding video game developers. Within this video, how many developers were involved with the project?",
+        "answer": "20",
+        "related_artifacts": [
+            "Chrome Web History.csv"
+        ],
+        "note": ""
+    },
+    {
+        "no": 10,
+        "question": "The breakfast bell is ringing (50 points) The user has been doing some research lately on fast food items. What is, according to some experts, the unhealthiest food item of the bunch?",
+        "answer": "breakfast crunchwrap sausage supreme",
+        "related_artifacts": [
+            "Chrome Web History.csv"
+        ],
+        "note": "Youtube search 필요"
+    },
+    {
+        "no": 11,
+        "question": "Oh Deer...I think we're lost (50 points) Michael lives just a mile south of a beautiful body of water. What is the name of this body of water?",
+        "answer": "Deer Creek",
+        "related_artifacts": [
+            "Chrome Autofill.csv"
+        ],
+        "note": "Google Search 필요"
+    },
+    {
+        "no": 12,
+        "question": "Gotta Git going fast with some Accelrated emulation! (50 points) In order to emulate an Android device, the user required some specialized management tools. What Android port is used by default with these services?",
+        "answer": "58526",
+        "related_artifacts": [
+            "Feature Usage.csv"
+        ],
+        "note": "Google Search 필요"
+    },
+    {
+        "no": 13,
+        "question": "PCA - Program Clang Assistant? (100 points) The user has installed Android Studio with a specialized plugin dedicating to diagnosing and fixing some programming errors. When this plugin runs, what exit code is used upon completion?",
+        "answer": "0xc0000135",
+        "related_artifacts": [
+            "Prefetch Files - Windows 8-10.csv",
+            "pca\\*.txt"
+        ],
+        "note": "appcompat\\pca 내 txt 파일 필요"
+    }
+]

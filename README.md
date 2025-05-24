@@ -12,8 +12,6 @@ ArtifactX is an evaluation framework designed to test and verify the accuracy of
 * **Performance Evaluation:** An integrated Evaluation Agent that distinguishes between data retrieval and reasoning performance, providing in-depth analysis of factual accuracy and identifying specific shortcomings in the investigative process.
 * **Developer Guidance:** Detailed evaluation feedback to guide prompt engineering, tool integration, and the optimization of smaller, task-specific language models.
 
-## System Architecture (High-Level)
-The core of ArtifactX is an AI Agent operating in an Action-Observation loop. This agent determines actions, executes them through a diverse set of specialized tools, and processes observations to refine its strategy. Data is structured for robust reasoning. An Evaluation Agent is integrated to assess performance, providing detailed insights. Human-in-the-Loop (HITL) support can be enabled for interactive use.
 
 ## Getting Started
 ArtifactX currently employs a single agent architecture, with multi-agent expansion planned. Version 1.0 supports OpenAI or Anthropic models for retrieval and reasoning, with future support for open-source models.

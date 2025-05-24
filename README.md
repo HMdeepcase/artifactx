@@ -69,12 +69,12 @@ Before execution, ensure your API key is added to the `.env` file.
 
 To run the system in evaluation mode:
 ```bash
-python sing_agent.py --evaluate
+python single_agent.py --evaluate
 ```
 
 To activate Human-in-the-Loop (HITL) features:
 ```bash
-python sing_agent.py --interactive
+python single_agent.py --interactive
 ```
 **WARNING:** The system is primarily designed for automated tests and may not correctly interpret interruption messages in interactive mode.
 
